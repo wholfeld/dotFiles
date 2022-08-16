@@ -1,5 +1,6 @@
+// Place your key bindings in this file to override the defaults
  // Place your key bindings in this file to override the defaultsauto[]
-[
+ [
     // allows navigating through opened windows and panes
     {
         "key": "ctrl+h",
@@ -69,7 +70,7 @@
         "when": "inDebugMode"
     },
     {
-        "key": "ctrl+shift+f5",
+        "key": "ctrl+'",
         "command": "workbench.action.debug.run"
     },
     {
@@ -129,5 +130,21 @@
         "key": "ctrl+f",
         "command": "-problems.action.focusFilter",
         "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
     }
 ]

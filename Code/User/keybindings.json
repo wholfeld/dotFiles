@@ -1,5 +1,6 @@
-// Place your key bindings in this file to override the defaultsauto[]
-[
+// Place your key bindings in this file to override the defaults
+ // Place your key bindings in this file to override the defaultsauto[]
+ [
     // allows navigating through opened windows and panes
     {
         "key": "ctrl+h",
@@ -62,5 +63,88 @@
     {
         "key": "shift+alt+x",
         "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+shift+f5",
+        "command": "-workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "workbench.action.debug.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "shift+alt+meta+i",
+        "command": "editor.action.inspectTMScopes"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-settings.action.search",
+        "when": "inSettingsEditor"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-repl.action.filter",
+        "when": "inDebugRepl && textInputFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-hexdump.searchString",
+        "when": "editorLangId == 'hexdump'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-workbench.action.terminal.focusFind",
+        "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-editor.action.extensioneditor.showfind",
+        "when": "!editorFocus && activeEditor == 'workbench.editor.extension'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-editor.action.webvieweditor.showFind",
+        "when": "webviewFindWidgetEnabled && !editorFocus && activeEditor == 'WebviewEditor'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-extension.vim_ctrl+f",
+        "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-keybindings.editor.searchKeybindings",
+        "when": "inKeybindings"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-notebook.find",
+        "when": "notebookEditorFocused || notebookEditorOpen"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-problems.action.focusFilter",
+        "when": "focusedView == 'workbench.panel.markers.view'"
+    },
+    {
+        "key": "ctrl+alt+l",
+        "command": "workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
     }
 ]

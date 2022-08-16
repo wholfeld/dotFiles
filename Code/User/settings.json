@@ -1,14 +1,17 @@
 {
-    "files.associations": {
-        "*.c": "c"
+    "workbench.iconTheme": "Nand2Tetris",
+    "workbench.colorTheme": "pinwheel theme",
+    "editor.fontFamily": "Fira Code iScript",
+    "terminal.integrated.fontFamily": "consolas",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
     },
-    "workbench.colorTheme": "Quiet Light",
-    "keyboard.dispatch": "keyCode",
-    "todohighlight.isEnable": false,
+    "editor.codeActionsOnSave": null,
     "editor.renderWhitespace": "all",
-    "workbench.iconTheme": "vscode-icons",
-    "python.dataScience.sendSelectionToInteractiveWindow": false,
-    "terminal.integrated.shell.linux": "/bin/bash",
-    "diffEditor.renderSideBySide": true,
-    "python.showStartPage": false
+    "editor.fontSize": 18,
+    "editor.lineNumbers": "relative",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
 }
